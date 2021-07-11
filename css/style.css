@@ -1,0 +1,72 @@
+.hidden {
+    display: none;
+}
+body{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-size: 100%,100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px
+}
+#login-form :first-child{
+    width: 200px;
+}
+#login-form :last-child{
+    width: 150px;
+    color: white;
+    font-size: 20px;
+    border-bottom: 0px white solid;
+    font-weight: 400;
+    font-size: x-large;
+    margin-top: 20px;
+}
+h1{
+    margin-bottom: 0px;
+}
+h2{
+    margin-top: 20px;
+}
+input{
+    width: 400px;
+    height: 50px;
+    border-top: none;
+    border-bottom: 3px solid white;
+    border-right: none;
+    border-left: none;
+    background: transparent;
+    margin-bottom: 0px;
+}
+input:focus{
+    outline:none;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+::placeholder{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 1;
+}
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#quote{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#quote :first-child{
+    width: 80%;
+}
